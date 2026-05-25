@@ -1,0 +1,11 @@
+.sugus.envoltorio {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.sugus p {
+  color: black;
+}
