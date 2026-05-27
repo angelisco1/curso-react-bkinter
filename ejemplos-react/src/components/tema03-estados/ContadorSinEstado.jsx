@@ -20,7 +20,7 @@ export const ContadorSinEstado = ({ cuenta, onChangeCuenta }) => {
   return (
     <>
       <button onClick={decrementarCuenta}>-</button>
-      <span>Cuenta: {cuenta}</span>
+      <span>{cuenta}</span>
       <button onClick={incrementarCuenta}>+</button>
     </>
   )
