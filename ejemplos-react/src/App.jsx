@@ -10,6 +10,8 @@ import { Tema04UseEffect } from './components/tema04-useEffect/Tema04UseEffect'
 import { Tema05Referencias } from './components/tema05-referencias/Tema05Referencias'
 import { Tema06Formularios } from './components/tema06-formularios/Tema06Formularios'
 import { Tema07ContextAPI } from './components/tema07-context-api/Tema07ContextAPI'
+import { Tema08PropChildrenYPortals } from './components/tema08-prop-children-y-portals/Tema08PropChildrenYPortals'
+import { Tema09RoutingYZustand } from './components/tema09-routing-y-zustand/Tema09RoutingYZustand'
 
 
 
@@ -24,7 +26,9 @@ function App() {
       {/* <Tema04UseEffect /> */}
       {/* <Tema05Referencias /> */}
       {/* <Tema06Formularios /> */}
-      <Tema07ContextAPI />
+      {/* <Tema07ContextAPI /> */}
+      {/* <Tema08PropChildrenYPortals /> */}
+      <Tema09RoutingYZustand />
 
     </>
   )

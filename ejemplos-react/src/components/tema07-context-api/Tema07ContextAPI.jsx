@@ -51,7 +51,7 @@ export const Tema07ContextAPI = () => {
 
   return (
     <>
-      <h2>Tema 07: context API y useContext</h2>
+      <h2>Tema 07: context API, useContext y useReducer</h2>
 
     <form onSubmit={changeNombre}>
       <div>

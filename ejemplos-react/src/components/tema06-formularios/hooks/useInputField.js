@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 
 export const useInputField = (valorInicial, validations = {}) => {
   const [value, setValue] = useState(valorInicial)
+
   const [errors, setErrors] = useState([])
 
   useEffect(() => {
@@ -16,7 +17,8 @@ export const useInputField = (valorInicial, validations = {}) => {
     }
 
     Object.entries(validations).forEach((entry) => {
-      // entry -> [minLength, 3]
+      // entries -> [[minLength, 8], [simbolos, true]]
+      // entry -> [minLength, 8]
       const [validationName, validationData] = entry
 
       if (validationName === 'minLength' && value.length < validationData) {

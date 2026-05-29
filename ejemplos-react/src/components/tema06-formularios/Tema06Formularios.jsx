@@ -7,6 +7,7 @@ export const Tema06Formularios = () => {
   const [nombre, setNombre, erroresNombre] = useInputField('Charly', {minLength: 3})
   
   const [email, setEmail] = useState('')
+  // const [password, setPassword] = useState('')
   const [password, setPassword, erroresPassword] = useInputField('', {minLength: 8, simbolos: true})
   
   // useEffect(() => {
