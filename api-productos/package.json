@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -w db.json"
+    "start": "json-server -w db.json",
+    "start4000": "json-server -w db.json -p 4000"
   },
   "keywords": [],
   "author": "",

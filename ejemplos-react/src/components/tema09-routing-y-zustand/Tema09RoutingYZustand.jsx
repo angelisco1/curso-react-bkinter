@@ -9,6 +9,7 @@ import { PageNotFound } from './PageNotFound'
 export const Tema09RoutingYZustand = () => {
   return (
     <>
+      {/* Normalmente se pone en el main.jsx envolviendo el componente App */}
       <BrowserRouter>
 
         <h2>Tema 09: routing y zustand</h2>

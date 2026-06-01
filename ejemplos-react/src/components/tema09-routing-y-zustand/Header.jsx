@@ -5,6 +5,8 @@ export const Header = () => {
     <>
       <ul>
         <li>
+          {/* event.prevenDefault() */}
+          {/* <a href="/">Inicio</a> */}
           <Link to="/">Inicio</Link>
         </li>
         <li>
