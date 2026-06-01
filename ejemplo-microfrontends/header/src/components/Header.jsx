@@ -1,7 +1,7 @@
 // import { Link } from "react-router-dom"
 
 import { emitNavigateToProduct, emitNavigateToPath, onAddItemToCart } from "@mf/shared"
-import { useCestaProductos } from "@mf/shared/src/store/useCestaProductos"
+import { useCestaProductos } from "@mf/shared"
 import { useEffect } from "react"
 import { useState } from "react"
 

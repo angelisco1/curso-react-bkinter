@@ -1,5 +1,5 @@
 import { emitAddItemToCart } from "@mf/shared"
-import { useCestaProductos } from "@mf/shared/src/store/useCestaProductos"
+import { useCestaProductos } from "@mf/shared"
 import { useEffect, useState } from "react"
 // import { useParams } from "react-router-dom"
 // import { useProductosAPI } from "./hooks/useProductosAPI"

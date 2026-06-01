@@ -48,7 +48,7 @@ export const useCestaProductos = create(
       getTotalProductos() {
         const listaProductos = get().productosEnCarrito
         console.log('TOTAL: ', listaProductos)
-        const cantidadTotal = 0
+        let cantidadTotal = 0
         listaProductos.forEach(element => {
           cantidadTotal += element.cantidad
         })
